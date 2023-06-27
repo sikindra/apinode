@@ -1,0 +1,11 @@
+{
+            "messaging_product": "whatsapp",
+            "recipient_type": "individual",
+            "preview_url": false,
+            "to": "918088226135",
+
+            "type": "template", 
+            "template": { "name": "hello_world",
+                        "language": { "code": "en_US" }
+            }
+        }

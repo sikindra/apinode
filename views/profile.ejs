@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>profile page</title>
+</head>
+<body>
+    <%- include('common/navabar'); %>
+    <h1>Welcome <%= user.name %></h1>
+    <h1>Email: <%= user.email %></h1>
+    <h1>City: <%= user.city %></h1>
+    <ul>
+        <% user.skils.forEach((item)=>{%>
+            <li><%=item %></li>
+
+        <%}) %>
+        
+    </ul>
+
+    
+</body>
+</html>
