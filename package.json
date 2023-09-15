@@ -21,8 +21,11 @@
     "dotenv": "^16.1.4",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "express-validator": "^7.0.1",
     "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
     "mysql": "^2.18.1",
-    "simple-node-logger": "^21.8.12"
+    "simple-node-logger": "^21.8.12",
+    "useragent": "^2.3.0"
   }
 }
